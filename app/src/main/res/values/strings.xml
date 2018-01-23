@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Cut</string>
+    <string name="title">Cuttly</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="okay">Okay,</string>
+    <string name="hello">Hello,</string>
+    <string name="what_are_you_cutting">What are you cutting today?</string>
+    <string name="you_re_cutting_a">You\'re cutting a,</string>
+    <string name="done">Done!</string>
+    <string name="tracker">Add to Tracker!</string>
+    <string name="weighing">Weighing...</string>
+    <string name="home">Home</string>
+    <string name="metrics">Metrics</string>
+    <string name="settings">Settings</string>
+    <string name="nutrition">Nutrition Summary</string>
+    <string name="calories">Calories</string>
+    <string name="fats">Fats</string>
+    <string name="carbs">Carbs</string>
+    <string name="proteins">Proteins</string>
+    <string name="measured">You have measured:</string>
+    <string name="title_activity_home">home</string>
+
+
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context="com.example.ryanmahjour.cut.signup">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Logo"
+            android:textStyle="normal|bold|italic"
+            android:fontFamily="sans-serif"
+            android:textSize="60sp"
+            android:textColor="@color/colorText"
+            android:textAlignment="center" />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="40dp"
+            android:id="@+id/signUpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:inputType="text"
+            app:met_baseColor="@color/colorText"
+            app:met_underlineColor="@color/colorUnderline"
+            app:met_maxCharacters="15"
+            app:met_singleLineEllipsis="true"
+            app:met_iconLeft="@drawable/ic_action_name"
+            app:met_iconPadding="0dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/signUpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:inputType="text"
+            app:met_baseColor="@color/colorText"
+            app:met_underlineColor="@color/colorUnderline"
+            app:met_maxCharacters="15"
+            app:met_singleLineEllipsis="true"
+            app:met_iconLeft="@drawable/email"
+            app:met_iconPadding="0dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/signUpPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:inputType="text"
+            app:met_baseColor="@color/colorText"
+            app:met_underlineColor="@color/colorUnderline"
+            app:met_maxCharacters="15"
+            app:met_singleLineEllipsis="true"
+            app:met_iconLeft="@android:drawable/ic_lock_idle_lock"
+            app:met_iconPadding="0dp"/>
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:text="Password"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            app:met_baseColor="@color/colorText"
+            app:met_underlineColor="@color/colorUnderline"
+            app:met_maxCharacters="15"
+            app:met_singleLineEllipsis="true"
+            app:met_iconLeft="@android:drawable/ic_lock_idle_lock"
+            app:met_iconPadding="0dp"/>
+
+        <Button
+            android:text="@string/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signUpButton"
+            android:textSize="14sp"
+            android:elevation="8dp"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
